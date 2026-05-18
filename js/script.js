@@ -85,7 +85,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 const originalTitle = document.title;
-const hiddenTitle = "Zuko";
+const hiddenTitle = "Nextro";
 
 document.addEventListener("visibilitychange", () => {
     if (document.hidden) {
